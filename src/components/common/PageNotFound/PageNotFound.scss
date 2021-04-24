@@ -1,0 +1,17 @@
+.page-not-found-container{
+  .pnf-details{
+    width: 27%;
+    margin: 10% auto;
+    text-align: center;
+    .pnf-error-warning{
+      font-size: 5rem;
+    }
+    .pnf-error-message{
+      margin: 1rem 0;
+      font-weight: 500;
+    }
+    .pnf-error-message-details{
+      margin-bottom: 2rem;
+    }
+  }
+}

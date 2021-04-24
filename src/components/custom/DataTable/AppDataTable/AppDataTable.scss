@@ -1,0 +1,33 @@
+.-adt-container {
+  td {
+    vertical-align: middle;
+  }
+
+  .-adt-table {
+    table-layout: fixed;
+    .bx--table-header-label,
+    td,
+    th.bx--table-column-checkbox {
+      padding-left: 0.5rem;
+      padding-right: 0;
+    }
+  }
+
+  .-adt-table-skeleton {
+    table-layout: fixed;
+  }
+
+  .bx--data-table-header {
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+
+  .-adt-pagination {
+    overflow: hidden;
+  }
+
+  th,
+  td {
+    padding-right: 0;
+  }
+}

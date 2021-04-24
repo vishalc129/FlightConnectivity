@@ -1,0 +1,26 @@
+
+# Created by https://www.gitignore.io/api/react
+# Edit at https://www.gitignore.io/?templates=react
+
+### react ###
+.DS_*
+**/*.backup.*
+**/*.back.*
+yarn-error.log
+node_modules
+bower_componets
+package-lock.json
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.gitignore.io/api/react
+
+.vscode
+
+build/
+output/
+.env
